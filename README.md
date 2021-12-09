@@ -1,7 +1,5 @@
 # [Дизайн-система Consta](http://consta.gazprom-neft.ru/) | GPN_RESPONSES
 
-Это компонент Tree для дизайн-системы Consta: дерево, подходит для создания иерархических структур. Компонент взят из библиотеки [rc-tree](https://github.com/react-component/tree) и адаптирован для [дизайн-системы Consta](https://consta.gazprom-neft.ru/).
-
 # Как использовать
 
 ## Установите пакет
@@ -71,7 +69,7 @@ $ yarn test
 
 ## Документация
 
-[Посмотреть документацию и примеры](https://consta-tree.vercel.app/)
+[Посмотреть документацию и примеры](https://gpn-responses.vercel.app/)
 
 ## Контрибьюторам
 
