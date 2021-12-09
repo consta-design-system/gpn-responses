@@ -1,0 +1,11 @@
+.cgr--ResponsesImage {
+  width: var(--image-width);
+
+  &-Image {
+    width: 100%;
+    height: 0;
+    padding-bottom: calc(100% / 420 * 237);
+    background-position: center;
+    background-size: contain;
+  }
+}
