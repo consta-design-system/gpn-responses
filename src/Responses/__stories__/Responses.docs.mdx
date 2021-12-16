@@ -15,7 +15,9 @@ import {
 # Responses
 
 Это набор компонентов, которые нужны, чтобы показывать пользователям сообщения о важных статусах:
-например, об ошибках в работе приложения, результате поиска или процесса.
+например, об ошибках в работе приложения, результате поиска или процесса. Все компоненты — с иллюстрациями в стиле Газпром нефти.
+
+> Если вам нужны сообщения об ошибках с нейтральными иллюстрациями, используйте [Responses](https://consta-uikit.vercel.app/?path=/docs/components-responses--playground)
 
 - [Типы сообщений](#название)
   - [Нет доступа (ошибка 403)](#нет-доступа-ошибка-403)
@@ -46,11 +48,16 @@ import {
 
 Здесь можно подсказать пользователю, как получить доступ. Если доступ получить нельзя, лучше тоже сказать об этом.
 
-<ExampleResponses403 />
-
 ```tsx
-<Responses403 />
+import React from 'react'
+import { Responses403 } from '@consta/uikit/Responses403'
+
+const App = () => {
+  return <Responses403 />
+}
 ```
+
+<ExampleResponses403 />
 
 ### Страница не существует (ошибка 404)
 
@@ -60,11 +67,16 @@ import {
 Здесь можно разместить ссылки на полезные страницы: обычно это главная страница сайта
 и самые популярные разделы.
 
-<ExampleResponses404 />
-
 ```tsx
-<Responses404 />
+import React from 'react'
+import { Responses404 } from '@consta/uikit/Responses404'
+
+const App = () => {
+  return <Responses404 />
+}
 ```
+
+<ExampleResponses404 />
 
 ### Ошибка сервера (500 ошибка)
 
@@ -75,11 +87,16 @@ import {
 К сожалению, здесь нельзя сказать ничего конкретного (и это раздражает пользователей).
 Можно только подсказать, что проблемы на сайте, а не у пользователя в системе, и посоветовать зайти чуть позже.
 
-<ExampleResponses500 />
-
 ```tsx
-<Responses500 />
+import React from 'react'
+import { Responses500 } from '@consta/uikit/Responses500'
+
+const App = () => {
+  return <Responses500 />
+}
 ```
+
+<ExampleResponses500 />
 
 ### Сервис недоступен (503 ошибка)
 
@@ -89,11 +106,16 @@ import {
 Здесь можно подсказать, что проблема временная. Если вы проводите плановые технические работы,
 во время которых сервис недоступен, стоит сказать об этом тоже.
 
-<ExampleResponses503 />
-
 ```tsx
-<Responses503 />
+import React from 'react'
+import { Responses503 } from '@consta/uikit/Responses503'
+
+const App = () => {
+  return <Responses503 />
+}
 ```
+
+<ExampleResponses503 />
 
 ### Проблемы с интернетом
 
@@ -101,11 +123,16 @@ import {
 
 Здесь можно посоветовать проверить соединение и качество связи.
 
-<ExampleResponsesConnectionError />
-
 ```tsx
-<ResponsesConnectionError />
+import React from 'react'
+import { ResponsesConnectionError } from '@consta/uikit/ResponsesConnectionError'
+
+const App = () => {
+  return <ResponsesConnectionError />
+}
 ```
+
+<ExampleResponsesConnectionError />
 
 ### Нет данных
 
@@ -117,11 +144,16 @@ import {
 
 Если вам не подходит это изображение, можно использовать [вариант с пустыми карманами](#нет-данных-пустые-карманы).
 
-<ExampleResponsesEmpty />
-
 ```tsx
-<ResponsesEmptyBox />
+import React from 'react'
+import { ResponsesEmptyBox } from '@consta/uikit/ResponsesEmptyBox'
+
+const App = () => {
+  return <ResponsesEmptyBox />
+}
 ```
+
+<ExampleResponsesEmpty />
 
 ### Информация удалена
 
@@ -131,11 +163,16 @@ import {
 Здесь стоит подсказать, что именно удалилось, и дать возможность вернуть всё обратно,
 если пользователь удалил это по ошибке.
 
-<ExampleResponsesDeleted />
-
 ```tsx
-<ResponsesDeleted />
+import React from 'react'
+import { ResponsesDeleted } from '@consta/uikit/ResponsesDeleted'
+
+const App = () => {
+  return <ResponsesDeleted />
+}
 ```
+
+<ExampleResponsesDeleted />
 
 ### Ничего не нашлось
 
@@ -144,11 +181,16 @@ import {
 Здесь стоит подсказать, что сделать, чтобы получить результат: поменять данные в фильтрах,
 уточнить запрос, подобрать другие слова.
 
-<ExampleResponsesNothingFound />
-
 ```tsx
-<ResponsesNothingFound />
+import React from 'react'
+import { ResponsesNothingFound } from '@consta/uikit/ResponsesNothingFound'
+
+const App = () => {
+  return <ResponsesNothingFound />
+}
 ```
+
+<ExampleResponsesNothingFound />
 
 ### Успешный результат
 
@@ -158,11 +200,16 @@ import {
 Здесь стоит четко написать, что произошло: письмо отправлено, платеж прошел, заметка сохранилась, сотрудник добавлен список.
 Чтобы у пользователя не было сомнений, что всё в порядке.
 
-<ExampleResponsesSuccess />
-
 ```tsx
-<ResponsesSuccess />
+import React from 'react'
+import { ResponsesSuccess } from '@consta/uikit/ResponsesSuccess'
+
+const App = () => {
+  return <ResponsesSuccess />
+}
 ```
+
+<ExampleResponsesSuccess />
 
 ## Текст
 
@@ -178,8 +225,6 @@ import {
 
 Все варианты выглядят хорошо, главное быть последовательным и везде делать одинаково.
 
-<ExampleResponsesText />
-
 ```tsx
 <ResponsesSuccess
   size="m"
@@ -188,11 +233,11 @@ import {
 />
 ```
 
+<ExampleResponsesText />
+
 ## Кнопки
 
 За кнопки под сообщением отвечает свойство `actions`. Можно добавить одну или несколько.
-
-<ExampleResponsesActions />
 
 ```tsx
 <ResponsesSuccess
@@ -202,6 +247,8 @@ import {
   actions={<Button size="m" view="ghost" label="Ура, я уже бегу" />}
 />
 ```
+
+<ExampleResponsesActions />
 
 ## Размер
 

@@ -1,8 +1,10 @@
-# [Дизайн-система Consta](http://consta.gazprom-neft.ru/) | GPN_RESPONSES
+# [Дизайн-система Consta](http://consta.gazprom-neft.ru/) | GPN-responses
 
-# Как использовать
+Сообщения об ошибках с иллюстрациями в стиле Газпром нефти.
 
-## Установите пакет
+## Как использовать
+
+### Установите пакет
 
 ```sh
 # NPM
@@ -12,7 +14,7 @@ $ npm install @consta/gpn-responses
 $ yarn add @consta/gpn-responses
 ```
 
-## Подключите зависимости
+### Подключите зависимости
 
 Чтобы начать работу, установите библиотеку [`@consta/uikit`](https://www.npmjs.com/package/@consta/uikit) и [настройте тему](https://consta-uikit.vercel.app/?path=/docs/components-theme--playground).
 
