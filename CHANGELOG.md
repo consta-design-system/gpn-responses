@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.0.2 (28/04/2022)
+- [chore(deploy): update config](https://github.com/consta-design-system/gpn-responses/commit/97679d09c9a491f6a1d15a8ca6a361e7c5b5aa76) - [@gizeasy](https://github.com/gizeasy)
+
+--------------------
+
 ## v1.0.1 (20/04/2022)
 - [docs(global): replace url (#9)](https://github.com/consta-design-system/gpn-responses/commit/fd8dc07aef77160e865fa19507bf4fc0f1fc3f65) - [@arhayka](https://github.com/arhayka)
 - [docs(common): edit links to vercel (#7)](https://github.com/consta-design-system/gpn-responses/commit/5b886666390721a5c9a20776a844b4808d0ccddd) - [@arhayka](https://github.com/arhayka)
