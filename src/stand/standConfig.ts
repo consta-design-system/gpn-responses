@@ -10,11 +10,11 @@ const groups = [
 ] as const;
 
 export const { createStand } = createConfig({
-  title: 'Consta gpn-responses',
+  title: 'Consta GPN-Responses',
   id: 'gpn-responses',
   groups,
-  group: 'Библиотеки компонентов',
+  group: '',
   image,
   description:
-    '[тут описание что это такое] Ультра топчик библиотеки с пацанскими кнопками и графиками, качай.',
+    'Сообщения об ошибках с иллюстрациями в корпоративном стиле для нефтяной области.',
 });
