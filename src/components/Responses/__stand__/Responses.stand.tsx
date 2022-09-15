@@ -1,11 +1,8 @@
 import { createStand } from '##/stand/standConfig';
 
-import image from './Responses.image.svg';
-
 export default createStand({
   title: 'Responses',
   id: 'Responses',
-  image,
   group: 'components',
   description: 'Cообщения о важных статусах',
   figma:
