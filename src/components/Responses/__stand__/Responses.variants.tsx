@@ -1,6 +1,6 @@
+import { useBoolean, useSelect, useText } from '@consta/stand';
 import { Button } from '@consta/uikit/Button';
-import { boolean, select, text } from '@storybook/addon-knobs';
-import * as React from 'react';
+import React from 'react';
 
 import { Responses403 } from '##/components/Responses403';
 import { Responses404 } from '##/components/Responses404';
@@ -11,9 +11,6 @@ import { ResponsesDeleted } from '##/components/ResponsesDeleted';
 import { ResponsesEmpty } from '##/components/ResponsesEmpty';
 import { ResponsesNothingFound } from '##/components/ResponsesNothingFound';
 import { ResponsesSuccess } from '##/components/ResponsesSuccess';
-import { createMetadata } from '##/storybook';
-
-import mdx from './Responses.docs.mdx';
 
 const components = {
   Responses403,
@@ -31,24 +28,18 @@ const componentsNames = Object.keys(components) as Array<
   keyof typeof components
 >;
 
-const defaultKnobs = () => ({
-  component: select('Component', componentsNames, componentsNames[0]),
-  size: select('Size', ['m', 'l'], 'm'),
-  title: text('Title', ''),
-  description: text('Description', ''),
-  actions: boolean('Actions', false),
-});
+const Variants = () => {
+  const componentName = useSelect(
+    'Component',
+    componentsNames,
+    componentsNames[0],
+  );
+  const size = useSelect('Size', ['m', 'l'], 'm');
+  const title = useText('Title', '');
+  const description = useText('Description', '');
+  const actions = useBoolean('Actions', false);
 
-export function Playground() {
-  const {
-    size,
-    title,
-    description,
-    component: componentName,
-    actions,
-  } = defaultKnobs();
-
-  const Component = components[componentName];
+  const Component = components[componentName ?? componentsNames[0]];
 
   return (
     <Component
@@ -60,14 +51,6 @@ export function Playground() {
       }
     />
   );
-}
+};
 
-export default createMetadata({
-  title: 'Компоненты/Responses',
-  id: 'components/Responses',
-  parameters: {
-    docs: {
-      page: mdx,
-    },
-  },
-});
+export default Variants;
