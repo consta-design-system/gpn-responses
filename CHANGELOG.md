@@ -1,5 +1,18 @@
 # Changelog
 
+## v1.0.3 (29/09/2022)
+Самое важное:
+Выкладываем новый стенд и сборщик.
+
+Добавили песочницу: теперь в ней можно смотреть примеры компонентов.
+
+---
+
+- [chore(stand): new stand and new builder (#10)](https://github.com/consta-design-system/gpn-responses/commit/93663a2f124e572b07ae15fba542622941bc356a) - [@gizeasy](https://github.com/gizeasy)
+- [chore(stand): add automation publish stand](https://github.com/consta-design-system/gpn-responses/commit/bf7f8c822785305931fe86cf29167521dc7d2df7) - [@gizeasy](https://github.com/gizeasy)
+
+--------------------
+
 ## v1.0.2 (28/04/2022)
 - [chore(deploy): update config](https://github.com/consta-design-system/gpn-responses/commit/97679d09c9a491f6a1d15a8ca6a361e7c5b5aa76) - [@gizeasy](https://github.com/gizeasy)
 
