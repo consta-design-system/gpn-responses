@@ -7,13 +7,19 @@ export const { createStand } = createConfig({
   id: 'gpn-responses',
   groups: [
     {
+      title: 'Документация',
+      id: 'docs',
+      initialOpen: true,
+    },
+    {
       title: 'Компоненты',
       id: 'components',
       view: 'card',
+      initialOpen: true,
     },
   ],
   group: '',
   image,
   description:
-    'Сообщения об ошибках с иллюстрациями в корпоративном стиле для нефтяной области.',
+    'Сообщения об ошибках с иллюстрациями по теме добычи и переработки нефти.',
 });

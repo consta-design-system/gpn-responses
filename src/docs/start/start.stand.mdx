@@ -1,0 +1,27 @@
+## Установите пакет и зависимости
+
+`yarn add @consta/uikit @consta/gpn-responses`
+
+или
+
+`npm install @consta/uikit @consta/gpn-responses`
+
+## Подключите тему
+
+Тему обязательно нужно подключать в корне приложения, так, чтобы все компоненты были вложены в [компонент `Theme`](##LIBS.LIB.STAND/lib:uikit/stand:components-theme-stable).
+
+## Можно использовать компоненты
+
+Например, так:
+
+```js
+import { Theme, presetGpnDefault } from '@consta/uikit/Theme';
+import { Responses403 } from '@consta/gpn-responses';
+const App = () => {
+  return (
+    <Theme preset={presetGpnDefault}>
+      <Responses403 />
+    </Theme>
+  );
+};
+```
