@@ -15,7 +15,7 @@ $ yarn add @consta/gpn-responses
 
 ### Подключите зависимости
 
-Чтобы начать работу, установите библиотеку [`@consta/uikit`](https://www.npmjs.com/package/@consta/uikit) и [настройте тему](http://uikit.consta.design/libs/uikit/theme-themeabout).
+Чтобы начать работу, установите библиотеку [`@consta/uikit`](https://www.npmjs.com/package/@consta/uikit) и [настройте тему](http://portal.consta.design/libs/portal/theme-themeabout).
 
 ### Можно использовать компоненты
 
@@ -68,7 +68,7 @@ $ yarn test
 
 ## Контрибьюторам
 
-Будем рады, если вы захотите принять участие в разработке дизайн-системы =) Но сначала прочитайте [инструкцию для контрибьюторов](http://uikit.consta.design/libs/uikit/custom-contribute).
+Будем рады, если вы захотите принять участие в разработке дизайн-системы =) Но сначала прочитайте [инструкцию для контрибьюторов](http://portal.consta.design/libs/portal/custom-contribute).
 
 ## Лицензия
 
