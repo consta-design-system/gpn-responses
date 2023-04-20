@@ -18,7 +18,7 @@ export const { createStand } = createConfig({
       initialOpen: true,
     },
   ],
-  group: 'Отдельные компоненты',
+  group: 'Специальные компоненты',
   image,
   description:
     'Сообщения об ошибках с иллюстрациями по теме добычи и переработки нефти.',

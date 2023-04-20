@@ -93,6 +93,7 @@
     "@bem/sdk.naming.presets": "^0.2.3",
     "@consta/stand": "^0.0.102",
     "@consta/uikit": "^4.15.0",
+    "@mdx-js/loader": "^2.1.5",
     "@oclif/command": "^1.8.16",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.3",
     "@svgr/core": "^6.3.1",
