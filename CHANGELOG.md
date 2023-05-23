@@ -1,5 +1,21 @@
 # Changelog
 
+## v1.0.4 (23/05/2023)
+Запускать локальный сервер разработки и сборку пакетов теперь можно и на ОС Windows.
+
+---
+
+- [chore: configure build for windows (#19)](https://github.com/consta-design-system/gpn-responses/commit/61cf5221e2e8590944e7378fa01822cc7a471de0) - [@gizeasy](https://github.com/gizeasy)
+- [docs(gpn-responses): add aliases (#18)](https://github.com/consta-design-system/gpn-responses/commit/909cf9b693b16ccd8f8424d4c021ddefbb80a298) - [@N1MBER](https://github.com/N1MBER)
+- [chore(deps): update](https://github.com/consta-design-system/gpn-responses/commit/d67b3b205c946c25ca2d1c826f70b061c73401ee) - [@gizeasy](https://github.com/gizeasy)
+- [docs: edit stand description](https://github.com/consta-design-system/gpn-responses/commit/a501908cf206c4ee85759fe24c4b32db4807474e) - [@gizeasy](https://github.com/gizeasy)
+- [chore: update @consta/stand](https://github.com/consta-design-system/gpn-responses/commit/87bee73460273f713d2eca43a368238407baff4a) - [@gizeasy](https://github.com/gizeasy)
+- [docs(portal): readme, stand, version (#17)](https://github.com/consta-design-system/gpn-responses/commit/238e4f2065af592bcef59bef586f3dd180613c1b) - [@arhayka](https://github.com/arhayka)
+- [docs: readme, links, menu, start (#16)](https://github.com/consta-design-system/gpn-responses/commit/0076940698d2f7e0e9b8312701fbe3503519d4db) - [@arhayka](https://github.com/arhayka)
+- [chore(deps): update @consta/stand](https://github.com/consta-design-system/gpn-responses/commit/686035a577bedf75cfdac3659c55611ea444e87c) - [@gizeasy](https://github.com/gizeasy)
+
+--------------------
+
 ## v1.0.3 (29/09/2022)
 Самое важное:
 Выкладываем новый стенд и сборщик.
