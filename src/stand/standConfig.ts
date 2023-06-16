@@ -24,5 +24,5 @@ export const { createStand } = createConfig({
     'Сообщения об ошибках с иллюстрациями по теме добычи и переработки нефти.',
   repositoryUrl: 'https://github.com/consta-design-system/gpn-responses',
   figmaUrl:
-    'https://www.figma.com/file/v9Jkm2GrymD277dIGpRBSH/Consta-UI-Kit?type=design&node-id=6263-116157&t=kKryFkzj99IXSSgO-0',
+    'https://www.figma.com/file/nmu0jhM1GavX8dyi1dGTJM/Consta-Graphics-(Community)?type=design&node-id=4472-0&t=bSr4DqFUdBhX6zY9-0',
 });
