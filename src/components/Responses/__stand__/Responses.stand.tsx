@@ -14,7 +14,7 @@ export default createStand({
     'статусы',
   ],
   figma:
-    'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fv9Jkm2GrymD277dIGpRBSH%2FConsta-UI-Kit%3Fnode-id%3D6263%253A116157',
+    'https://www.figma.com/file/nmu0jhM1GavX8dyi1dGTJM/Consta-Graphics-(Community)?type=design&node-id=4472-0&t=bSr4DqFUdBhX6zY9-0',
   version: '1.0.2',
   sandbox: 'responses-51p7y7',
   status: 'stable',
