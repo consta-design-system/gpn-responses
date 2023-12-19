@@ -1,13 +1,22 @@
 # Changelog
 
-## v1.0.4 (23/05/2023)
-Запускать локальный сервер разработки и сборку пакетов теперь можно и на ОС Windows.
+## v2.0.0 (19/12/2023)
+Самое важное:
+- Добавлена поддержка `@consta/uikit` `v5.0.0`
 
 ---
 
+- [chore(deps): update](https://github.com/consta-design-system/gpn-responses/commit/130a50fac1a2665d5b204fd975988b1f02e69739) - [@gizeasy](https://github.com/gizeasy)
+- [chore(utils): added status classNames (#22)](https://github.com/consta-design-system/gpn-responses/commit/95fb6ddfc109b02b5ae196fffa2a3ae38be173ab) - [@N1MBER](https://github.com/N1MBER)
+- [chore: edit deploy config and codeowners (#21)](https://github.com/consta-design-system/gpn-responses/commit/d115edc201731ee5065b8c984c2f5befafe4dee2) - [@gizeasy](https://github.com/gizeasy)
+- [docs(standConfig): add figmaUrl (#20)](https://github.com/consta-design-system/gpn-responses/commit/3b8d2524098321090e68a1de70c0ea823bb63d40) - [@gizeasy](https://github.com/gizeasy)
+
+--------------------
+
+## v1.0.4 (23/05/2023)
 - [chore: configure build for windows (#19)](https://github.com/consta-design-system/gpn-responses/commit/61cf5221e2e8590944e7378fa01822cc7a471de0) - [@gizeasy](https://github.com/gizeasy)
 - [docs(gpn-responses): add aliases (#18)](https://github.com/consta-design-system/gpn-responses/commit/909cf9b693b16ccd8f8424d4c021ddefbb80a298) - [@N1MBER](https://github.com/N1MBER)
-- [chore(deps): update](https://github.com/consta-design-system/gpn-responses/commit/d67b3b205c946c25ca2d1c826f70b061c73401ee) - [@gizeasy](https://github.com/gizeasy)
+- [chore(deps): updagte](https://github.com/consta-design-system/gpn-responses/commit/d67b3b205c946c25ca2d1c826f70b061c73401ee) - [@gizeasy](https://github.com/gizeasy)
 - [docs: edit stand description](https://github.com/consta-design-system/gpn-responses/commit/a501908cf206c4ee85759fe24c4b32db4807474e) - [@gizeasy](https://github.com/gizeasy)
 - [chore: update @consta/stand](https://github.com/consta-design-system/gpn-responses/commit/87bee73460273f713d2eca43a368238407baff4a) - [@gizeasy](https://github.com/gizeasy)
 - [docs(portal): readme, stand, version (#17)](https://github.com/consta-design-system/gpn-responses/commit/238e4f2065af592bcef59bef586f3dd180613c1b) - [@arhayka](https://github.com/arhayka)
